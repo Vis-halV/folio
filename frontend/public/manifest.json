@@ -1,0 +1,8 @@
+{
+  "short_name": "PORTFOLIO",
+  "name": "Digital Portfolio Builder for Students",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1a1a",
+  "background_color": "#f2f1ec"
+}

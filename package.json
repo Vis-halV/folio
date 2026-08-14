@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root manifest: lets the Heroku Node buildpack build the React bundle Flask serves.",
+  "scripts": {
+    "heroku-postbuild": "npm --prefix frontend install && npm --prefix frontend run build",
+    "build": "npm --prefix frontend run build",
+    "start:api": "cd backend && flask run --port 5000",
+    "start:web": "npm --prefix frontend start"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
